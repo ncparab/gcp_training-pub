@@ -12,6 +12,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run script file
       run: |
-         chmod +x ./public/test.sh
-         ./public/test.sh
+         chmod +x test.sh
+         sh test.sh
       shell: bash
